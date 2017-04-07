@@ -1,5 +1,7 @@
 # Jinja2 template rendering inside Dockerfile
 
+## Usage
+
 Use this Docker image to render a template as follows:
 
 You have a template file (e.g., `templates/test.json`)
@@ -26,3 +28,7 @@ This creates a file `outputs/test.json` with the following content:
   "msg": "Hallo welt"
 }
 ```
+
+## Templating
+
+Details about Jinja2 are [here](http://jinja.pocoo.org/docs/dev/).
