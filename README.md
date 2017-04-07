@@ -18,7 +18,7 @@ docker run --rm \
            -v outputs:/out \
            -v templates:/data \
            -e TEMPLATE=test.json.j2 \
-         	 -e OUT_FILE=/out/test.json \
+           -e OUT_FILE=/out/test.json \
            dominicbreuker/jinja2_docker:latest \
             message='welt'
 ```
