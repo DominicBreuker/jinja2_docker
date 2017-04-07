@@ -9,5 +9,5 @@ PROJECT_ROOT="$(abspath $FOLDER/..)"
 echo "building Docker image in folder $PROJECT_ROOT"
 
 docker build -f $PROJECT_ROOT/Dockerfile \
-             -t dominicbreuker/jinja_docker:latest \
+             -t dominicbreuker/jinja2_docker:latest \
              $PROJECT_ROOT

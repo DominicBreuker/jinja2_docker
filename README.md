@@ -19,7 +19,8 @@ docker run --rm \
            -v templates:/data \
            -e TEMPLATE=test.json.j2 \
          	 -e OUT_FILE=/out/test.json \
-           dominicbreuker/jinja_docker:latest message='welt'
+           dominicbreuker/jinja2_docker:latest \
+            message='welt'
 ```
 
 This creates a file `outputs/test.json` with the following content:

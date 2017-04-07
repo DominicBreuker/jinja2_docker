@@ -24,4 +24,5 @@ docker run --rm \
            -v $TEMPLATE_DIR:/data \
            -e TEMPLATE=test.json.j2 \
          	 -e OUT_FILE=/out/test.json \
-           dominicbreuker/jinja_docker:latest message='welt'
+           dominicbreuker/jinja2_docker:latest \
+            message='welt'
